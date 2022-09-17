@@ -1,0 +1,136 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.card{
+    width: 400px;
+    height: 440px;
+    z-index: 100;
+    border-radius: 20px;
+    box-shadow: 4px 6px 3px rgba(38, 38, 38, 0.37);
+}
+
+.flxend{
+    height: 170px;
+    width: 100%;
+    background-image: linear-gradient(115deg, rgba(140, 70, 180, 0.9), rgba(136, 76, 206, 0.7)), url(assets/bg-pattern-card.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.avatar{
+    border: 2px solid #eee;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    margin-bottom: -50px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.kalan{
+    height: 270px;
+    width: 92%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 0 4%;
+}
+
+.flxc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    height: 80px;
+    gap: 14px;
+}
+
+.cizgi{
+    background-color: rgba(116, 56, 186, 0.7);
+    border: none;
+    margin: 24px 4px 0 4px;
+    height: 1px;
+}
+
+.yas{
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.isim{
+    color: black;
+    margin-right: 12px;
+    font-weight: 600;
+}
+
+.sehir{
+    color: #777;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+h2{
+    margin: 0;
+}
+
+.flx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#botimg{
+    position: absolute;
+    bottom: -400px;
+    right: -400px;
+}
+
+#topimg{
+    position: absolute;
+    top: -400px;
+    left: -400px;
+}
+
+@media only screen and (max-width: 1400px) {
+    #botimg{
+        position: absolute;
+        bottom: -600px;
+        right: -600px;
+    }
+    
+    #topimg{
+        position: absolute;
+        top: -600px;
+        left: -600px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #botimg{
+        position: absolute;
+        bottom: -720px;
+        right: -720px;
+    }
+    
+    #topimg{
+        position: absolute;
+        top: -720px;
+        left: -720px;
+    }
+}
