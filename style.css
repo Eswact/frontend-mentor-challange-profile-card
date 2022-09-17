@@ -39,6 +39,11 @@ body {
     margin-bottom: -50px;
     object-fit: cover;
     overflow: hidden;
+    transition: all 800ms ease-in-out;
+}
+
+.avatar:hover{
+    transform: rotate(360deg);
 }
 
 .kalan{
@@ -88,6 +93,10 @@ h2{
     margin: 0;
 }
 
+h2:hover{
+    color: rgba(116, 56, 186, 0.7);
+}
+
 .flx{
     display: flex;
     justify-content: space-around;
@@ -105,6 +114,10 @@ h2{
     position: absolute;
     top: -400px;
     left: -400px;
+}
+
+span:hover{
+    color: rgba(116, 56, 186, 0.7);
 }
 
 @media only screen and (max-width: 1400px) {
