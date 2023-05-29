@@ -135,10 +135,13 @@ span:hover{
 }
 
 @media only screen and (max-width: 600px) {
+    .card{
+        width: 80%;
+        height: auto;
+    }
+
     #botimg{
-        position: absolute;
-        bottom: -720px;
-        right: -720px;
+        display: none;      
     }
     
     #topimg{
